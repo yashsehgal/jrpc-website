@@ -1,0 +1,23 @@
+.header-container {
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-options-wrapper {
+  width: fit-content;
+}
+
+.header-options-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.6rem;
+  list-style: none;
+}
