@@ -13,7 +13,7 @@ body, html {
 .content-center {
   margin-right: auto;
   margin-left: auto;
-  max-width: 1350px;
+  max-width: 1320px;
 }
 
 a {
@@ -48,7 +48,7 @@ a:hover {
 }
 
 .text-p {
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 500;
   letter-spacing: 0em;
@@ -60,4 +60,34 @@ a:hover {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.section-content-wrapper {
+  margin-top: 260px;
+}
+
+.section-content-wrapper-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.section-content-wrapper-flex-start {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.paragraph-wrapper {
+  width: 38ch;
+  color: #6C6C6C;
+  line-height: 1.6;
+}
+
+.heading-wrapper {
+  width: 24ch;
+  color: var(--dark-color);
+  line-height: 1.4;
 }
