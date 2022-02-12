@@ -156,6 +156,102 @@ export default function Landing() {
             </h1>
           </div>
 
+          {/* section 05: queries & solutions wrapper */}
+          <div className="landing-page-secion-05 section-content-wrapper">
+            <div className="landing-page-section-05__layer-01 section-content-wrapper-flex-start">
+              <div className="solution-01-content-wrapper">
+                <h3 className="text-heading heading-wrapper">Now you might have some time for yourself, you’d love to do these things 😍</h3>
+                <p className="text-p paragraph-wrapper">
+                  These are the things that you already know
+                  but it’s just to remind you that you need to
+                  do these things as well 🙃
+                </p>
+                <p className="text-p paragraph-wrapper">
+                  Things like Cooking food, cleaning desks,
+                  flowering plants, reading books, doing things
+                  that quickly changes your mindstate are
+                  really effective for having a productive day.
+                </p>
+              </div>
+              <div className="solution-02-content-wrapper">
+                <h3 className="text-heading heading-wrapper">Don’t forget to take care of
+                  your health. More sitting means more cardio. Make it a rule. 💯</h3>
+                <p className="text-p paragraph-wrapper">
+                  Moving body is good for your mind, it
+                  helps to be more productive. Also, keeps
+                  the senses active and make you feel more
+                  motivated.
+                </p>
+              </div>
+            </div>
+            <div className="landing-page-section-05__layer-01 section-content-wrapper-flex-start">
+              <div className="solution-03-content-wrapper">
+                <h3 className="text-heading heading-wrapper">One day prior for your self-care routine. Eat well, enjoy and don’t work at all.</h3>
+                <p className="text-p paragraph-wrapper">
+                  Set atleast one or atmost 2 days per week
+                  prior, for your self-care routine. Sleep a little-bit
+                  more than your usual routine, enjoy your morning
+                  bath, do things that you don’t usually get time for,
+                  have a heavy breakfast, catch up with your friends,
+                  go somewhere out, eat good food at a good place,
+                  maybe exchange books over a meet, maybe meet
+                  your girlfriend (if you’ve one 🙃), Shop for yourself,
+                  Have a great dinner, be grateful that for everything
+                  you’re able to do, maybe end up your day by watching
+                  a great movie (I personally like Marvel movies).
+                </p>
+              </div>
+              <div className="solution-04-content-wrapper">
+                <h3 className="text-heading heading-wrapper">Hope you liked reading the
+                  previous paragraph, It meant
+                  to be that Soothing. So your day in a life will be 😇</h3>
+                <p className="text-p paragraph-wrapper">
+                  Try following these things and make a
+                  clean and healthy routine for yourself.
+                  Work Hard, Party Hard, Rest Hard.
+                </p>
+                <p className="text-p paragraph-wrapper">
+                  Life’s beautiful, enjoy it to the fullest.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* section 06: CTA Suggestions section */}
+          <div className="landing-page-section-06 section-content-wrapper">
+            <div className="landing-page-section-06__layer-01-content-wrapper section-content-wrapper-flex-start">
+              <div className="suggestion-01-content-wrapper">
+                <h3 className="text-heading heading-wrapper">
+                  Capture your workspace and
+                  note down your experiences.
+                  daily.
+                </h3>
+              </div>
+              <div className="suggestion-02-content-wrapper">
+                <h3 className="text-heading heading-wrapper">
+                  Share your experiences &
+                  growth on Twitter with <span className="gradient-text"> #justrelaxpeople</span>
+                </h3>
+              </div>
+            </div>
+            <div className="landing-page-section-06__layer-01-content-wrapper section-content-wrapper-flex-start">
+              <div className="suggestion-03-content-wrapper">
+                <h3 className="text-heading heading-wrapper">
+                  Don’t forget. This site is more
+                  like a reminder to follow a healthy
+                  lifestyle with some tips and methods.
+                  We beileve that these would be
+                  helpful for you. <span className="gradient-text">Keep Relaxing!</span>
+                </h3>
+              </div>
+              <div className="suggestion-04-content-wrapper">
+                <h3 className="text-heading heading-wrapper">
+                  {/* nothing as of now */}
+                </h3>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </React.Fragment>

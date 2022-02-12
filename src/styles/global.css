@@ -11,6 +11,11 @@ body, html {
   margin-bottom: 3.4rem;
 }
 
+::selection {
+  background-color: #00000080;
+  color: white;
+}
+
 .content-center {
   margin-right: auto;
   margin-left: auto;

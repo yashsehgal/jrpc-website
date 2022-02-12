@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import './header-styles.css';
 import { Link } from 'react-router-dom';
+import Button from '../Button';
 
 export default function Header() {
   const [headerOptionsRef] = useState([
     { value: 'see the trends', route: '/trends' },
-    { value: 'the culture', route: '/culture' },
-    { value: 'support us', route: '/support' }
+    { value: 'the culture', route: '/culture' }
   ]);
   return (
     <React.Fragment>
@@ -22,6 +22,11 @@ export default function Header() {
                   </Link>
                 </li>
               ))}
+              <Link to="/support">
+                <Button>
+                  sponsor us.
+                </Button>
+              </Link>
             </ul>
           </div>
         </div>
