@@ -1,5 +1,10 @@
 import React, { useState } from "react";
-import { ReactComponent as DizzyPerson } from '../assets/dizzy.svg';
+
+// images imported as react-components
+import DizzyPerson from '../assets/dizzy.svg';
+import BalancedWorkspace from "../assets/balanced-workspace.svg";
+import GamingPeople from "../assets/gaming-people.svg";
+import Organized from "../assets/organized.svg";
 
 export default function Landing() {
   const [arrowLengthRef, setArrowLength] = useState(115);
@@ -56,21 +61,99 @@ export default function Landing() {
                 body and keep this #hustle balanced.
               </p>
             </div>
-            <DizzyPerson style={{ width: '480px', height: 'auto' }} />
+            <img src={DizzyPerson} style={{ width: '480px', height: 'auto' }} alt="dizzy-person" />
           </div>
 
           {/* section 02: How to manage your work-life balance. How to relax? */}
-          <div className="landing-page-section-02-wrapper section-content-wrapper-flex-start">
+          <div className="landing-page-section-02-wrapper section-content-wrapper section-content-wrapper-flex-start">
             <div className="landing-page-section-02-content-wrapper">
               <h3 className="text-heading heading-wrapper">How to manage your work-life balance. How to relax?</h3>
               <p className="text-p paragraph-wrapper">
-                Well, there’s no such #mantra to have a
+                Well, there's no such #mantra to have a
                 proper work-life balance, but what we
                 can start doing is #analyzing our routines
                 and removing tasks that can be avoided.
                 Which simply means creating a #Todo list.
               </p>
+              <h3 className="text-heading heading-wrapper">.continuing</h3>
+              <p className="text-p paragraph-wrapper">
+                Talking about todo lists, there're many
+                task management apps that you can use
+                in order to keep a track of your routine.
+                #Notion is the best one that I know.
+              </p>
             </div>
+            <img src={BalancedWorkspace} style={{ width: '480px', height: 'auto' }} alt="balanced-workspace" />
+          </div>
+
+          {/* section 03: What actually happens? Things we really need to avoid. */}
+          <div className="landing-page-section-03 section-content-wrapper">
+            <div className="landing-page-section-03__layer-top-wrapper section-content-wrapper-flex">
+              <div className="landing-page-section-03-content-wrapper">
+                <h3 className="text-heading heading-wrapper">What actually happens? Things we really need to avoid.</h3>
+                <p className="text-p paragraph-wrapper">
+                  Our working hours are increasing due
+                  to increasing distractions. Checking
+                  Twitter, Instagram and other notifications,
+                  chatting with friends in middle of something,
+                  watching trailer reactions on YouTube. All this
+                  collectively increases your work hours & you
+                  feel you're tired when it's about actual work. 
+                </p>
+              </div>
+              <img src={GamingPeople} style={{ width: '480px', height: 'auto' }} alt="gaming-people" />
+            </div>
+            <div className="landing-page-section-03__layer-bottom-wrapper" style={{
+              display: 'flex',
+              flexDirection: 'row',
+              alignItems: 'flex-start',
+              gap: '2.4rem',
+              justifyContent: 'space-around'
+            }}>
+              <div className="continuing-block-content">
+                <h3 className="text-heading heading-wrapper">.continuing</h3>
+                <p className="text-p paragraph-wrapper">
+                  #Forest is one of the finest apps
+                  for productivity. It blocks apps and links
+                  when you’re working and is easy to use.
+                </p>
+              </div>
+              <div className="more-to-it-block-content">
+                <h3 className="text-heading heading-wrapper">.more to it</h3>
+                <p className="text-p paragraph-wrapper">
+                  Working 6-7 hours straight is not important,
+                  but quality hours are the ones that get count.
+                  If you get free early, you’ll be able to get time
+                  for yourself.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* section 04: congratulations section +100000000 points */}
+          <div className="landing-page-section-04 section-content-wrapper section-content-wrapper-flex">
+            <div className="landing-page-section-04-content-wrapper">
+              <h1 className="text-lg heading-wrapper" style={{ width: '18ch' }}>
+                Now, I am making
+                sure that you’ve
+                started managing
+                your routine.
+              </h1>
+              <h3 className="text-heading gradient-text" style={{ marginBottom: '0px', marginTop: '6px' }}>
+                Give yourself +10000000 points,
+              </h3>
+              <h3 className="text-heading gradient-text" style={{ marginTop: '0px' }}>
+                You're great.
+              </h3>
+            </div>
+            <img src={Organized} style={{ width: '380px', height: 'auto' }} alt="organized" />
+          </div>
+
+          {/* CTA for Hashtag */}
+          <div className="landing-page-cta-section section-content-wrapper" style={{ textAlign: 'center' }}>
+            <h1 className="text-lg">
+              Be a part of <span className="gradient-text">#justrelaxpeople</span>
+            </h1>
           </div>
 
         </div>
