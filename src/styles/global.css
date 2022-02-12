@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --dark-color: black;
+  --gradient: linear-gradient(90deg, #00CB6A, #00819D);
+}
+
+body, html {
+  background: white;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 3.4rem;
+}
+
+::selection {
+  background-color: #00000080;
+  color: white;
+}
+
+.content-center {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1320px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-color);
+  font-weight: inherit;
+}
+
+a:hover {
+  color: gray;
+}
+
+.text-xl {
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0em;
+}
+
+.text-lg {
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0em;
+}
+
+.text-heading {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0em;
+}
+
+.text-p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0em;
+}
+
+.gradient-text {
+  height: 1.5em;
+  background-image: var(--gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-content-wrapper {
+  margin-top: 260px;
+}
+
+.section-content-wrapper-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.section-content-wrapper-flex-start {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.paragraph-wrapper {
+  width: 38ch;
+  color: #6C6C6C;
+  line-height: 1.6;
+}
+
+.heading-wrapper {
+  width: 24ch;
+  color: var(--dark-color);
+  line-height: 1.4;
+}

@@ -1,0 +1,17 @@
+.solid-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  text-align: center;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid transparent;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  background: black;
+  color: white;
+  border-radius: 120px;
+  cursor: pointer;
+}/*# sourceMappingURL=button-styles.css.map */

@@ -1,0 +1,24 @@
+.footer-container {
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-options-wrapper {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.footer-options-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.6rem;
+  list-style: none;
+}/*# sourceMappingURL=footer-styles.css.map */
