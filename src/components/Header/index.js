@@ -6,7 +6,7 @@ import Button from '../Button';
 export default function Header() {
   const [headerOptionsRef] = useState([
     { value: 'see the trends', route: '/trends' },
-    { value: 'the culture', route: '/culture' }
+    { value: 'the stories', route: '/stories' }
   ]);
   return (
     <React.Fragment>

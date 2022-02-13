@@ -34,7 +34,7 @@ export default function Landing() {
               onMouseEnter={() => setArrowLength(140)}
               onMouseLeave={() => setArrowLength(115)}
             >
-              Join the #Culture
+              See the stories.
               <span>
                 <svg width={arrowLengthRef} height="24" viewBox="0 0 215 24" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ transition: 'all 0.2s ease-in-out' }}>
                   <path d="M214.063 13.0607C214.649 12.4749 214.649 11.5251 214.063 10.9393L204.517 1.3934C203.931 0.807612 202.982 0.807612 202.396 1.3934C201.81 1.97918 201.81 2.92893 202.396 3.51472L210.881 12L202.396 20.4853C201.81 21.0711 201.81 22.0208 202.396 22.6066C202.982 23.1924 203.931 23.1924 204.517 22.6066L214.063 13.0607ZM0 13.5H213.002V10.5H0V13.5Z" fill="url(#paint0_linear_4_9)" />
