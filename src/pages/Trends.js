@@ -94,7 +94,7 @@ export default function Trends() {
             marginTop: '6rem'
           }}>
             <h1 className="text-xl">
-              See are trends.
+              See the trends.
             </h1>
           </div>
 
